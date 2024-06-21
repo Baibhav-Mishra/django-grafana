@@ -1,0 +1,66 @@
+successfully unloaded 'gpt-neo-125m_c9400da0adb64aa982a4541ed9d68c1c' version 1 2024-06-03 14:24:43: a100 India backup
+successfully unloaded 'gpt-neo-125m_c9400da0adb64aa982a4541ed9d68c1c' version 1 2024-06-03 14:24:43: US main h100
+Timeout 28: Found 1 live models and 0 in-flight non-inference requests 2024-06-03 14:24:42 backup a100 US
+2024-06-03 14:24:42: Timeout 30: Found 0 model versions that have in-flight inferences h100 
+Waiting for in-flight requests to complete. 2024-06-03 14:24:42: v100 India
+Timeout 30: Found 1 live models and 0 in-flight non-inference requests 2024-06-03 14:24:42: US 
+2024-06-03 14:24:42: Signal (15) received.
+All models are stopped, unloading models 2024-06-03 14:24:42:
+Timeout 29: Found 1 live models and 0 in-flight non-inference requests 2024-06-03 14:24:41:
+2024-06-03 14:24:41: All models are stopped, unloading models
+Signal (15) received. 2024-06-03 14:24:41:
+Timeout 30: Found 1 live models and 0 in-flight non-inference requests 2024-06-03 14:24:41:
+Waiting for in-flight requests to complete. 2024-06-03 14:24:41:
+Timeout 30: Found 0 model versions that have in-flight inferences 2024-06-03 14:23:08:
+Started Metrics Service at 0.0.0.0:10002 2024-06-03 14:23:08:
+| min_supported_compute_capability | 6.0 | 2024-06-03 14:23:08:
+Started GRPCInferenceService at 0.0.0.0:9000 2024-06-03 14:23:08: US
+| cache_enabled | 0 | 2024-06-03 14:23:08: backup
+Started HTTPService at 0.0.0.0:8080 2024-06-03 14:23:08: US main
+| cuda_memory_pool_byte_size{0} | 67108864 | 2024-06-03 14:23:08:
+| exit_timeout | 30 | 2024-06-03 14:23:08: backup
+| strict_readiness | 1 | 2024-06-03 14:23:08: India
++----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 2024-06-03 14:23:08:
+2024-06-03 14:23:08: | server_extensions | classification sequence model_repository model_repository(unload_dependents) schedule_policy model_configuration system_shared_memory cuda_shared_memory binary_tensor_data parameters statistics trace logging |
+2024-06-03 14:23:08: Collecting metrics for GPU 0: Tesla T4
+2024-06-03 14:23:08: Collecting CPU metrics
+2024-06-03 14:23:08: | rate_limit | OFF |
+2024-06-03 14:23:08: | model_control_mode | MODE_NONE |
+2024-06-03 14:23:08: | strict_model_config | 0 |
+2024-06-03 14:23:08: | Option | Value |
+2024-06-03 14:23:08: +----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+2024-06-03 14:23:08: | pinned_memory_pool_byte_size | 268435456 |
+2024-06-03 14:23:08: +----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+2024-06-03 14:23:08:| server_version | 2.35.0 |
+2024-06-03 14:23:08: | model_repository_path[0] | /mnt/models |
+2024-06-03 14:23:08: +---------+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+2024-06-03 14:23:08: +---------+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+2024-06-03 14:23:08: | Model | Version | Status |
+2024-06-03 14:23:08: | gpt-neo-125m_c9400da0adb64aa982a4541ed9d68c1c | 1 | READY |
+2024-06-03 14:23:08: | Repository Agent | Path |
+2024-06-03 14:23:08: +------------------+------+
+2024-06-03 14:23:08: | Backend | Path | Config |
+2024-06-03 14:23:08: +---------+---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+2024-06-03 14:23:08: +-----------------------------------------------+---------+--------+
+2024-06-03 14:23:08: +------------------+------+
+2024-06-03 14:23:08: +------------------+------+
+2024-06-03 14:23:08: +-----------------------------------------------+---------+--------+
+2024-06-03 14:23:08:
+2024-06-03 14:23:08: +-----------------------------------------------+---------+--------+
+2024-06-03 14:23:08: successfully loaded 'gpt-neo-125m_c9400da0adb64aa982a4541ed9d68c1c'
+2024-06-03 14:23:08: successfully loaded 'gpt-neo-125m_c9400da0adb64aa982a4541ed9d68c1c'
+2024-06-03 14:22:59: To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-03 08:52:59.913129: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2024-06-03 14:22:59: To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags. 4090
+2024-06-03 14:22:59: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2024-06-03 14:22:53: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2024-06-03 14:22:53: To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-03 08:52:53.250340: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+2024-06-03 14:22:53: To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+loading: gpt-neo-125m_c9400da0adb64aa982a4541ed9d68c1d:1 2024-06-03 14:22:50: US backup h100
+W0603 08:52:50.782545 1 model_lifecycle.cc:108] ignore version directory '.git' which fails to convert to integral number 2024-06-03 14:22:50:
+loading: gpt-neo-125m_c9400da0adb64aa982a4541ed9d68c1d:1 2024-06-03 14:22:50: backup US a100
+W0603 08:52:50.782545 1 model_lifecycle.cc:108] ignore version directory '.git' which fails to convert to integral number 2024-06-03 14:22:50:
+CUDA memory pool is created on device 0 with size 67108864 2024-06-03 14:22:50: v100 India main
+Pinned memory pool is created at '0x7f4d28000000' with size 268435456 2024-06-03 14:22:49 backup:
+
